@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: hsl(217, 54%, 11%);
+}
+
+main {
+  width: 18rem;
+  height: 32rem;
+  background: hsl(216, 50%, 16%);
+  border-radius: 0.5rem;
+}
+
+.imagem {
+  display: flex;
+  margin: 20px;
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 0.4rem;
+}
+
+p {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.valor, .dias {
+  display: inline;
+}
