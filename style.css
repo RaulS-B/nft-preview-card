@@ -80,3 +80,23 @@ p {
 .criador span {
   color: white;
 }
+
+.imagem:hover::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  width: 284.8px;
+  height: 284.8px;
+  position: absolute;
+  content: url(images/icon-view.svg);
+  background: rgba(0, 255, 247, 0.522);
+}
+
+.nome:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.criador:hover span {
+  color: hsl(178, 100%, 50%);
+}
