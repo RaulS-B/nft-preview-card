@@ -14,10 +14,10 @@
 }
 
 main {
-  width: 18rem;
-  height: 32rem;
+  width: 20.3rem;
+  height: 35rem;
   background: hsl(216, 50%, 16%);
-  border-radius: 0.5rem;
+  border-radius: 0.9rem;
 }
 
 .imagem {
@@ -32,9 +32,50 @@ main {
 
 p {
   margin: 20px;
+  padding-top: 4px;
   font-size: 18px;
 }
 
 .valor, .dias {
   display: inline;
+}
+
+.nome {
+  color: #fff;
+  font-weight: 600;
+}
+
+.descrição, .dias, .criador {
+  color:  hsl(215, 20%, 45%);
+}
+
+.valor {
+  color: hsl(178, 100%, 50%);
+}
+
+.dias {
+  padding-left: 2rem;
+}
+
+.icones {
+  position: relative;
+  top: 2px;
+}
+
+.foto {
+  width: 2rem;
+  position: relative;
+  top: 10px;
+  border: solid 1px white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.criador {
+  border-top: solid 1px hsl(215, 32%, 27%);
+  padding-top: 10px;
+}
+
+.criador span {
+  color: white;
 }
